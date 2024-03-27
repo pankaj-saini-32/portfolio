@@ -1359,7 +1359,7 @@ textarea:focus ~ span {
 
 textarea {
     width: 100%;
-    min-height: 15em;
+    min-height: 3em;
 }
 
 .input-container {
