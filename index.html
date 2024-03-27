@@ -12,7 +12,7 @@
         
     </head>
     <body>
-        
+        <div id="snackbar">Some text some message..</div>
         <header class="header">
             
             <a href="#" class="logo">Portfolio</a>
@@ -123,9 +123,31 @@
                 </div>
             </div>
         </section>
-
    
-
+        <div class="container">
+           
+            <div class="row">
+                    <h4 style="text-align:center">We'd love to hear from you!</h4>
+            </div>
+            <div class="row input-container">
+                    <div class="col-xs-12">
+                        <div class="styled-input wide">
+                            <input class="email" type="text" required />
+                            <label>Name</label> 
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="styled-input wide">
+                            <textarea class="message" required></textarea>
+                            <label>Message</label>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div onclick="fnc()" class="btn-lrg submit-btn">Send Message</div>
+                    </div>
+            </div>
+        </div>
+        
         <section class="contacts" id="Contact">
             <div class="contact-text">
                 <h2>Contact <span>Me</span></h2>
