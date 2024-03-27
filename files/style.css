@@ -358,7 +358,7 @@ body {
 }
 
 .progress-line.css span {
-    width: 80%;
+    width: 70%;
 }
 
 .progress-line.python span {
@@ -370,7 +370,7 @@ body {
 }
 
 .progress-line.cpls span {
-    width: 80%;
+    width: 70%;
 }
 
 .progress-line span::after {
@@ -1269,3 +1269,17 @@ body {
         color: #000;
     }
 }
+.qw {
+    transform: translateY(-18px); margin-left: 30px;
+}
+.we {
+    transform: translateY(-18px); margin-left: 30px;
+}
+ @media (min-width: 700px)  {
+    .qw {
+        transform: translate(20px, -28px); 
+    }
+    .we {
+        transform: translate(20px, -28px); 
+    }
+ }
